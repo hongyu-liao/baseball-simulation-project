@@ -1,18 +1,18 @@
 # Activity List: Baseball Monte Carlo Simulation
 
-| Timestamp           | Activity                                                                                     | Performed By    |
-| :------------------ | :------------------------------------------------------------------------------------------- | :-------------- |
-| 2025-05-19 10:00:00 | Cloned base repository for assignment.                                                         | [Your Name(s)]  |
-| 2025-05-19 10:30:00 | Initial discussion on project scope and requirements with AI (Gemini).                         | [Your Name(s)], AI |
-| 2025-05-19 11:00:00 | Drafted initial User Stories for Functional Specifications.                                    | [Your Name(s)], AI |
-| 2025-05-20 09:00:00 | Started Python script: Defined `Player`, `Pitcher`, `GameState` classes (AI provided template). | [Your Name(s)], AI |
-| 2025-05-20 11:00:00 | Implemented `simulate_at_bat` logic with simplified probabilities.                             | [Your Name(s)]  |
-| 2025-05-20 14:00:00 | Implemented `simulate_inning_half` logic.                                                      | [Your Name(s)]  |
-| 2025-05-20 16:00:00 | Implemented `simulate_game` logic for a single game.                                           | [Your Name(s)]  |
-| 2025-05-20 17:00:00 | Researched and implemented Pandas for CSV data loading.                                        | [Your Name(s)]  |
-| 2025-05-20 18:00:00 | Created `load_batting_data` and `load_pitching_data` functions.                              | [Your Name(s)]  |
-| 2025-05-21 09:30:00 | Implemented Monte Carlo simulation loop for 1000 games. AI assisted with loop structure.     | [Your Name(s)], AI |
-| 2025-05-21 10:30:00 | Added win/loss tracking and percentage calculation for Monte Carlo output.                     | [Your Name(s)]  |
-| 2025-05-21 11:30:00 | Tested batch simulation and refined output.                                                    | [Your Name(s)]  |
-| 2025-05-21 13:00:00 | Generated draft project management documents (WBS, Backlog, Status Log, Activity List, Roadmap) with AI (Gemini) based on current project state and Python code. | [Your Name(s)], AI |
-| 2025-05-21 13:30:00 | Reviewed and refined generated documentation.                                                | [Your Name(s)]  |
+| Timestamp           | Activity                                                                                                                              | Performed By                                  |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------- |
+| 2025-05-19 10:00:00 | team discussion on project scope, objectives, and data sources.                                                      | Yiwei Li, Hongyu Liao, Ziyang Huang         |
+| 2025-05-19 10:30:00 | Hongyu Liao and Yiwei Li began identifying and confirming required cleaned CSV data files (batting, pitching stats) from the provided `pitch-by-pitch-pro` GitHub repository. | Hongyu Liao, Yiwei Li                       |
+| 2025-05-19 11:00:00 | Yiwei Li, Hongyu Liao, and Gemini (AI) started conceptualizing the Python simulation script structure and core classes (`Player`, `Pitcher`, `GameState`). | Yiwei Li, Hongyu Liao, Gemini (AI)         |
+| 2025-05-19 11:30:00 | Hongyu Liao and Yiwei Li, with assistance from Gemini (AI), drafted initial Python functions for data loading (`load_batting_data`, `load_pitching_data`) using Pandas to read CSVs. | Hongyu Liao, Yiwei Li, Gemini (AI)         |
+| 2025-05-19 12:00:00 | Yiwei Li, Hongyu Liao, and Gemini (AI) drafted core probability logic for simulating a single at-bat (`simulate_at_bat_no_print`).     | Yiwei Li, Hongyu Liao, Gemini (AI)         |
+| 2025-05-19 12:30:00 | Concluded initial data collection and core code drafting for the day.                                                                 | Yiwei Li, Hongyu Liao, Gemini (AI)         |
+| 2025-05-20 09:00:00 | Yiwei Li and Hongyu Liao refined and debugged the `simulate_inning_half_no_print` and `simulate_game_no_print` functions.                 | Yiwei Li, Hongyu Liao                       |
+| 2025-05-20 10:30:00 | Hongyu Liao and Yiwei Li implemented the Monte Carlo simulation loop (for 10,000 iterations) and added win percentage calculation.      | Hongyu Liao, Yiwei Li                       |
+| 2025-05-20 11:30:00 | Conducted initial testing and code cleanup for the Python script.                                                                       | Yiwei Li, Hongyu Liao, Gemini (AI)         |
+| 2025-05-20 14:00:00 | Team discussion on the initial framework for project management documents.                                                              | Yiwei Li, Hongyu Liao, Ziyang Huang         |
+| 2025-05-21 09:00:00 | Yiwei Li, Hongyu Liao, and Ziyang Huang created the GitHub repository `baseball-simulation-project` and set up the initial folder structure as per assignment requirements. | Yiwei Li, Hongyu Liao, Ziyang Huang         |
+| 2025-05-21 09:30:00 | Yiwei Li, Hongyu Liao, Ziyang Huang, and Gemini (AI) began drafting project management documents: Functional Specs, WBS, Product Backlog.   | Yiwei Li, Hongyu Liao, Ziyang Huang, Gemini (AI) |
+| 2025-05-21 11:00:00 | Yiwei Li, Hongyu Liao, Ziyang Huang, and Gemini (AI) continued drafting project management documents: Status Log, Activity List (this document), Roadmap. | Yiwei Li, Hongyu Liao, Ziyang Huang, Gemini (AI) |
+| 2025-05-21 14:00:00 | (Example future entry) Reviewed and finalized all project management documents.                                                         | Yiwei Li, Hongyu Liao, Ziyang Huang         |
