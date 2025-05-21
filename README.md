@@ -1,7 +1,3 @@
-Okay, here's a README.md file for your baseball-simulation-project. It provides a simple introduction, outlines the project structure as per your assignment, and includes links to the project management documents.
-
-Markdown
-
 # Baseball Monte Carlo Simulation Project
 
 ## 1. Introduction
